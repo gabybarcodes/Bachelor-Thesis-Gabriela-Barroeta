@@ -16,7 +16,7 @@ The ‘Total’ sheet is the original export from the Google Form survey; this r
 
 The second sheet, ‘Overview Analysis’ provides an overall summary to offer an initial grasp of the results. 
 The third sheet, ‘Gen Z and Millennials’ contains the table from the first sheet, copy-pasted and filtered by the ‘Age’ column to focus on the target groups: aged 18 to 44. Further, an additional column named ‘Financial_Stability’ in cell X1 was added using an Excel formula to identify financially stable customers, in order to test hypothesis H2, which proposes that brands avoiding BNPL will be preferred by financially stable or high-status shoppers.  If a participant selected the option ‘Pay the full $200 at once.’ as their response to the final question in the Google survey, they were marked as financially stable (assigned a value of 1). All other responses were considered not financially stable (assigned a value of 0). 
-The formula used for the new column was: =IF(EXACT(TRIM(CLEAN(W2));'Pay the full $200 at once.');1;0)
+The formula used for the new column was: =IF(EXACT(TRIM(CLEAN(W2));'Pay the full $200 at once.);1;0)
 
 The fourth sheet, ‘Gen Z and Millennials analysis’ takes all the information from the third sheet. Here, a general analysis was conducted, including the total count of participants, distribution by country, calculation of means (averages), and the application of gradient fill data bars to facilitate visual interpretation of the results.
 
